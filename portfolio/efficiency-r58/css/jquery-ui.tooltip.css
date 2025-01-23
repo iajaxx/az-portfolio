@@ -1,0 +1,33 @@
+/* JQuery UI Tooltip */
+
+.ui-widget-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.ui-tooltip {
+	padding: 8px;
+	position: absolute;
+	z-index: 9999;
+	max-width: 300px;
+}
+.ui-tooltip {
+	background: #4282b7;
+	border: solid 2px #454545;
+}
+.ui-tooltip {
+	padding: 10px 20px;
+	color: #fff;
+	font: 12px;
+}
+.arrow {
+	width: 18px;
+	height: 19px;
+	overflow: hidden;
+	position: absolute;
+	right: 10px;
+	bottom: -19px;
+	background:url(../img/structure/arrow/tooltip-arrow-r.png) no-repeat;
+}

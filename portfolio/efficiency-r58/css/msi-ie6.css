@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/* Motorola Solutions: Global: IE6 */
+
+.primarynav  li {
+	padding: 0px 14px 0px 14px;
+	height: 46px;
+	float: left;
+	cursor: pointer;
+	border-right: solid 1px #333;
+	border-left: solid 1px #7d7d7d;
+}
+.primarynav  li  a {
+	font-family:'UniversLTW02-67BoldCn';
+	font-size: 13px;
+	color: #f7f7f7;
+	text-decoration: none;
+	display: block;
+	position: relative;
+	z-index: 510;
+	text-align: center;
+	text-transform: uppercase;
+	top: 16px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.primarynav  li  a:hover {
+	color: #f7f7f7;
+}
+.primarynav  li  div {
+	display: none;
+}
+.primarynav  li.primarynav-search ul {
+	display: none;
+}
+.primarynav  li.primarynav-search span {
+	display: block;
+	background:url(../img/structure/main/search-field-r.png) no-repeat top right;
+	height: 26px;
+	position: relative;
+	top: 10px;
+	width: 100%;
+	border-right: none;
+	overflow: hidden;
+}
+.primarynav  li.primarynav-search input {
+	display: block;
+	position: relative;
+	left: 3px;
+	top: 3px;
+	border: solid 1px #fff;
+	width: 85%;
+	height: 20px;
+	font-size: 11px;
+}
+.primarynav  li.primarynav-search input.primarynav-search-button {
+	position: relative;
+	top: -18px;
+	right: 0px;
+	border: none;
+	background: none;
+	width: 30px;
+	cursor: pointer;
+	float: right;
+}

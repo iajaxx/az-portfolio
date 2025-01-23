@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/* Motorola Solutions Locale: HE: IE7 */
+.primarynav > li.primarynav-search span {
+	margin-top: 0px;
+}
+.primarynav > li.primarynav-search input {
+	top: 14px;
+}
+.header-links span.header-persistent-nav {
+	float: left;
+}

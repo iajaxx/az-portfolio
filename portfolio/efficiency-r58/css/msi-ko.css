@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+/* Motorola Solutions Locale: KO */
+
+@font-face{
+font-family:"FBHanGothicDB";
+src:url("fonts/ko/b0501f0d-019c-4d71-b567-45993f30fc20.eot");
+src:url("fonts/ko/b0501f0d-019c-4d71-b567-45993f30fc20.eot?#iefix") format("eot"),
+	url("fonts/ko/7f72202a-5e80-4118-bb3d-edde8b09cdb8.woff") format("woff"),
+	url("fonts/ko/0c49e998-7702-4975-877a-7e494757f717.ttf") format("truetype"),
+	url("fonts/ko/ac14cabe-9db2-4742-a6fb-b0d7dd1ca231.svg#ac14cabe-9db2-4742-a6fb-b0d7dd1ca231") format("svg");
+	font-weight: normal;
+    font-style: normal;
+}
+
+/* Primary Navigation */
+.primarynav > li {
+	font-size: 13px;
+}
+.primarynav > li > a {
+	font-family:'FBHanGothicDB';
+	font-size: 13px;
+	text-transform: uppercase;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-moz-osx-font-smoothing: none;
+	top: 17px;
+}
+.primarynav > li.primarynav-search ul {
+	width: 204px;	
+}
+.primarynav > li.primarynav-search input {
+	width: 80%;
+}
+.primarynav .primarynav-column-title p {
+	font-family:'FBHanGothicDB';
+	font-weight: normal;
+	font-size: 18px;
+	text-transform: capitalize;
+}
+.brandstory-box {
+	padding-bottom: 10px;	
+}
+
+.brandstory-box h1, .brandstory-box h2 {
+	font-family:'FBHanGothicDB';
+	font-weight: normal;
+	line-height: 1.1em;
+}
+
+.brandstory-box h3, .brandstory-box h4, .brandstory-box h5, .brandstory-box h6  {
+	font-family:'FBHanGothicDB';
+	font-weight: normal;
+	line-height: 1.3em;
+}
+
+.brandstory-home-cta h2 {
+	font-family:'Arial, Helvetica, sans-serif';
+	color: #fff;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+/* Brandstory Box: Line Heights */
+.brandstory-box h1 { font-size: 53px; }
+.brandstory-box h2 { font-size: 45px; }
+.brandstory-box h3 { font-size: 32px; }
+.brandstory-box h4 { font-size: 25px; }
+.brandstory-box h5 { font-size: 20px; }
+.brandstory-box h6 { font-size: 16px; }
+
+.brandstory-landing-links li {
+	font-family:'Arial, Helvetica, sans-serif';
+	font-weight: normal;
+}
+.brandstory-landing-icon-arrow {
+	font-family:'Arial, Helvetica, sans-serif';
+	font-weight: normal;
+}
+
+/* Content */
+.category-list li {
+	font-weight: normal;
+}
+.content-photo-list-item-text-title {
+	font-weight: normal;	
+}
+.content-photo-list-item-text-desc {
+	font-weight: normal;
+}
+
+/* Aside */
+.aside-box-list-title {
+	font-weight: normal;
+}
+.aside-box-content-title-gray {
+	font-weight: normal;
+}
+.aside-nav-list li {
+	font-weight: normal;
+}
+.aside-box-tweets ul li a.aside-box-tweets-name {
+	font-weight: normal;	
+}
+.aside-box-tweets ul li div.aside-box-tweets-post {
+	font-weight: normal;
+}
+.aside-box-video li a.aside-box-video-title {
+	font-weight: normal;
+}
+.aside-box-tweets ul li a.aside-box-tweets-name {
+	font-weight: normal;
+}
+.aside-box-content-slide span {
+	font-weight: normal;
+}

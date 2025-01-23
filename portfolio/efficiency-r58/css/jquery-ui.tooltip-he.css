@@ -1,0 +1,10 @@
+/* JQuery UI Tooltip - HE Locale */
+.ui-tooltip {
+	font-family: 'motomix-boldcaps';
+	color: #fff;
+	font-size: 14px;
+	float: right;
+}
+.arrow {
+	background:url(../img/structure/arrow/tooltip-arrow-l.png) no-repeat;
+}

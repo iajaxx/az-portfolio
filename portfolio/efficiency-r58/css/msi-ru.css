@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/* Motorola Solutions Locale: RU */
+
+.primarynav > li > a {
+	font-family:'Arial';
+	font-size: 14px;
+	text-transform: uppercase;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-moz-osx-font-smoothing: none;
+	top: 17px;
+}
+.primarynav > li > a.primarynav-sub-items-arrow {
+	background:url(../img/structure/arrow/arrow-navigation-sub-items.png) no-repeat right 4px;
+}
+.primarynav .primarynav-column-title p {
+	font-family:'Arial';
+	font-weight: normal;
+	font-size: 18px;
+	text-transform: capitalize;
+}
+.primarynav > li.primarynav-search ul {
+	width: 295px;
+}
+.primarynav > li.primarynav-search input {
+	width: 89%;
+}
+.brandstory-home-cta h2 {
+	font-family:'Arial';
+	font-weight: bold;
+}
+.brandstory-box h1, .brandstory-box h2, .brandstory-box h3, .brandstory-box h4, .brandstory-box h5, .brandstory-box h6  {
+	font-family:'Arial';
+	font-weight: bold;
+}

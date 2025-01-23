@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/* Motorola Solutions Locale: HE: IE8 */
+.brandstory-box h1, .brandstory-box h2, .brandstory-box h3, .brandstory-box h4, .brandstory-box h5, .brandstory-box h6  {
+	display: inline-block;
+}
+.header-links span.header-persistent-nav {
+	display: block;	
+}
+.primarynav > li > div {
+	margin-right: 0px;
+	right: 0px;
+}
+.primarynav > li > a {
+	float: left;
+}
+.primarynav .primarynav-column-container .primarynav-column {
+	white-space: nowrap;
+	float: right;
+	border-right: none;
+	border-left: solid 1px #d3d3d3;		
+}
+.primarynav .primarynav-column-container .primarynav-column-no-sep {
+	border-left: none;		
+}
+.primarynav .primarynav-column li a {
+	display: block;
+	white-space: normal;
+}
+.primarynav > li.primarynav-search span {
+	margin-top: 6px;
+	display: inline-block;
+	position: relative;
+	top: 0px;
+	height: 35px;
+	width: 100%;
+	border-right: none;
+	overflow: hidden;
+	background:url(../img/structure/main/search-field-l.png) no-repeat left;
+}
+.primarynav > li.primarynav-search input {
+	position: relative;
+	top: 8px;
+	left: auto;
+	right: 5px;
+	border: solid 1px #fff;
+	width: 85%;
+	height: 20px;
+}
+.primarynav .primarynav-columns-1 { width: 190px !important; }
+.primarynav .primarynav-columns-2 { width: 379px !important; }
+.primarynav .primarynav-columns-3 { width: 568px !important; }
+.primarynav .primarynav-columns-4 { width: 757px !important; }
+.primarynav .primarynav-columns-5 { width: 946px !important; }

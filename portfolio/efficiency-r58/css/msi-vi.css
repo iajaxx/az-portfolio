@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+/* Motorola Solutions Locale: VI */
+
+.primarynav > li {
+	text-transform: uppercase;	
+}
+.primarynav > li.primarynav-search ul {
+	width: 204px;
+}
+.primarynav > li.primarynav-search input {
+	width: 82%;
+}
+.primarynav > li > a {
+	font-family:'Arial';
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	top: 17px;
+}
+.brandstory-box h1, .brandstory-box h2, .brandstory-box h3, .brandstory-box h4, .brandstory-box h5, .brandstory-box h6  {
+	font-family:'Arial';
+	font-weight: bold;
+}
+.brandstory-home-cta h2 {
+	font-family:'Arial';
+	font-weight: bold;
+}
+
+/* Brandstory Box: Line Heights */
+.brandstory-box h1 { font-size: 48px; line-height: 52px; }
+.brandstory-box h2 { font-size: 40px; line-height: 44px; }
+.brandstory-box h3 { font-size: 32px; line-height: 36px; }
+.brandstory-box h4 { font-size: 25px; line-height: 28px; }
+.brandstory-box h5 { font-size: 20px; line-height: 22px; }
+.brandstory-box h6 { font-size: 16px; line-height: 18px; }
+
+.brandstory-landing-links li {
+	font-family:'Arial';
+	font-weight: normal;
+}
+.brandstory-landing-icon-arrow {
+	font-family:'Arial';
+	font-weight: normal;
+}
+
+/* Content */
+.category-list li {
+	font-weight: normal;
+}
+.content-photo-list-item-text-title {
+	font-weight: normal;	
+}
+.content-photo-list-item-text-desc {
+	font-weight: normal;
+}
+
+/* Aside */
+.aside-box-list-title {
+	font-weight: normal;
+}
+.aside-box-content-title-gray {
+	font-weight: normal;
+}
+.aside-nav-list li {
+	font-weight: normal;
+}
+.aside-box-tweets ul li a.aside-box-tweets-name {
+	font-weight: normal;	
+}
+.aside-box-tweets ul li div.aside-box-tweets-post {
+	font-weight: normal;
+}
+.aside-box-video li a.aside-box-video-title {
+	font-weight: normal;
+}
+.aside-box-tweets ul li a.aside-box-tweets-name {
+	font-weight: normal;
+}
+.aside-box-content-slide span {
+	font-weight: normal;
+}

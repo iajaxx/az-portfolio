@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* Universal Login CSS */
+
+input[type=text],
+input[type=password] {
+line-height: 32px;
+}
+.login-field[type=text],
+.login-field[type=password] {
+	line-height: 32px;
+}
+.reg-field[type=text],
+.reg-field[type=password] {
+	line-height: 32px;
+}
+.arrow:after {
+		content: "";
+		position: absolute;
+		left: 0px;
+		top: -30px;
+		width: 5px;
+		height: 5px;
+		-webkit-transform: none;
+		-moz-transform: none;
+		-ms-transform: none;
+		-o-transform: none;
+		transform: none;
+}

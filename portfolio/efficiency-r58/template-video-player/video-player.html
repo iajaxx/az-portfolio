@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script language="JavaScript" type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+    <style>
+	body { background: #000; margin: 0px; }
+	</style>
+	<meta charset="UTF-8">
+</head>
+<body>
+<div id="brightcove-player" style="overflow: hidden; width: 830px height: 460px;"></div>
+<script>
+	function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+    results = regex.exec(location.search);
+    return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+	}
+	var vid = getParameterByName('video');
+	var vTitle = getParameterByName('vtitle');
+	var pTitle = getParameterByName('ptitle');
+
+	getPlayer(vid);
+
+	function getPlayer(id) {
+	document.getElementById('brightcove-player').innerHTML = "<object id=\"myExperience1754261637001\" class=\"BrightcoveExperience\"><param name=\"bgcolor\" value=\"#000000\" /><param name=\"width\" value=\"830\" /><param name=\"height\" value=\"465\" /><param name=\"playerID\" value=\"2549948545001\" /><param name=\"playerKey\" value=\"AQ~~,AAAAEv-btbE~,YQjv7w0IdXumWqeQzjX6v1GedG8BkfWc\" /><param name=\"isVid\" value=\"true\" /><param name=\"isUI\" value=\"true\" /><param name=\"dynamicStreaming\" value=\"true\" /><param name=\"includeAPI\" value=\"true\" /><param name=\"autoStart\" value=\"true\" /><param name=\"templateLoadHandler\" value=\"myTemplateLoaded\" /><param name=\"templateReadyHandler\" value=\"onTemplateReady\"><param name=\"@videoPlayer\" value=\"" + id + "\" /></object>";
+	}
+</script>
+<script>brightcove.createExperiences();
+var myTemplateLoaded, onTemplateReady, player, modVP, modExp, modCon;
+myTemplateLoaded = function (experienceID) { player = brightcove.api.getExperience(experienceID); modVP = player.getModule(brightcove.api.modules.APIModules.VIDEO_PLAYER); modExp = player.getModule(brightcove.api.modules.APIModules.EXPERIENCE); modCon = player.getModule(brightcove.api.modules.APIModules.CONTENT);}
+onTemplateReady = function (evt) { modVP.getCurrentVideo(function (dto) { }); modVP.addEventListener(brightcove.api.events.MediaEvent.COMPLETE, onMediaEventFired);
+}
+function onMediaEventFired(evt) { if (evt.type === "mediaComplete") { dcsMultiTrack('WT.ti', 'Video for ' + pTitle + ' for ' + vTitle + ' Complete', 'DCSext.action', 'Video;' + pTitle + ';' + vTitle + ';2 - Complete', 'WT.si_n','Video Completion Scenario','WT.si_x','2', 'WT.si_cs','1','WT.dl','99','DCSext.linkname',vTitle,'WT.nv','Video','WT.clip_ev','v','WT.clip_n',vTitle,'WT.clip_t','Video'); }  }
+</script>
+<!-- Webtrends -->
+<script type="text/javascript" src="http://www.motorolasolutions.com/wrs/b2bsdc.js"></script>
+</body>
+</html>

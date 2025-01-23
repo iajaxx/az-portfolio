@@ -1,0 +1,7 @@
+@charset "UTF-8";
+/* Universal Login CSS */
+
+input[type=text],
+input[type=password] {
+line-height: 32px;
+}

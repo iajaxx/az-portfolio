@@ -1,0 +1,49 @@
+@font-face{ 
+	font-family:"UniversLTW02-67BoldCn";
+	src:url("fonts/c1f2f059-579b-465a-a13f-d70acd6c6212.eot");
+	src:url("fonts/c1f2f059-579b-465a-a13f-d70acd6c6212.eot?#iefix") format("embedded-opentype"),
+	url("fonts/d39b0ff2-cca2-4288-8f6a-c730f44feb81.svg#d39b0ff2-cca2-4288-8f6a-c730f44feb81") format("svg"),
+	url("fonts/b2388651-dd56-4c8e-8455-c55318f6a734.woff") format("woff"),
+	url("fonts/346ec69d-90a7-4fef-a216-1a0dafbd3798.ttf") format("truetype");
+}
+
+body { font-family:'Arial'; margin: 0px; }
+a { color: #0072bc; cursor: pointer; text-decoration: none;	}
+a:hover { color: #0a9bfa; text-decoration: none; }
+a, a:hover, a:active, a:visited { outline: none; }
+div.content { position: relative; top: 110px; margin: 0 auto; text-align: center; }
+div.index { width: 1020px; margin: 0 auto; background: #fff; padding: 50px; margin-top: 30px; border: solid 1px #ccc; text-align: center; }
+div.no-extra-margin { top: 0px !important }
+ul { font-family:'Arial'; display: block; line-height: 40px; font-size: 14px; list-style: none; margin: 20px 0px 0px 0px; padding: 0px; }
+hr { 
+	position: relative;
+	left: auto;
+	color: #ccc;
+	background-color: #ccc;
+	width: 100%;
+	height: 1px;
+	border-width: 0px;	
+	margin: 10px 0px 10px 0px;
+}
+h1 {
+	font-family:'UniversLTW02-67BoldCn';
+	text-transform: uppercase;
+	display: inline-block;
+	font-weight: normal;
+	font-size: 32px;	
+	color: #424242;
+	margin: 0px 0px 5px 0px;
+	line-height: 32px;
+}
+.lockup {
+	margin: auto 0;
+	background: #ddd;	
+}
+.note {
+	font-size: 14px;
+	color: #999;
+}
+.header { z-index: 51; position: fixed; text-align: center; width: 100%; background:url('../img/structure/nav-bg.png'); }
+.footer { margin-top: 120px; position: relative; display: block; text-align: center; width: 100%; background:url('../img/structure/footer-bg.png');  }
+.page-link { z-index: 999; position: fixed; background: #f3f3f3; border-right: solid 1px #ccc; border-top: solid 1px #ccc; border-bottom: solid 1px #ccc; padding: 5px; padding-left: 15px; margin-top: 190px; }
+.home-link { z-index: 999;  position: fixed; background: #f3f3f3; border-right: solid 1px #ccc; border-top: solid 1px #ccc; border-bottom: solid 1px #ccc; padding: 5px; padding-left: 15px; margin-top: 150px; }

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* Motorola Solutions Locale: PT */
+
+/* Primary Navigation */
+.primarynav > li.primarynav-search ul {
+	width: 186px;	
+}
+.primarynav > li.primarynav-search input {
+	width: 79%;
+}
+
+/* Brandstory Box: Line Heights */
+.brandstory-box h1 { font-size: 48px; line-height: 54px; letter-spacing: -1px; }
+.brandstory-box h2 { font-size: 40px; line-height: 42px; letter-spacing: -1px; }
+.brandstory-box h3 { font-size: 32px; line-height: 34px; letter-spacing: -1px; }
+.brandstory-box h4 { font-size: 25px; line-height: 27px; }
+.brandstory-box h5 { font-size: 20px; line-height: 24px; }
+.brandstory-box h6 { font-size: 16px; line-height: 21px; }
